@@ -1,0 +1,64 @@
+.toDoContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.todoTaskForm {
+    display: flex;
+    gap: 1rem;
+    margin-top: 10px;
+  }
+  
+  .todoTaskForm>input {
+    font-size: 14px;
+    height: 20px;
+    width: 500px;
+    padding: 5px 2px;
+    border: none;
+    border-bottom: 1px solid gray;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.3);
+  }
+  
+  .taskAddBtn {
+    padding: 10px;
+    width: 80px;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .taskAddBtn:hover {
+    background-color: darkblue;
+  }
+
+  .todoTaskList {
+    margin-top: 10px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .markAsDoneIcon {
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: green;
+    font-weight: 600;
+  }
+
+  .deleteTaskIcon {
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: red;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 10px;
+  }
